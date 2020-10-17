@@ -65,7 +65,7 @@ fun getLoopBlocks(source: ArrayList<String>): HashMap<Int, Int> {
 }
 
 fun main(args: Array<String>) {
-    var source = readCow("D://bf_examples//hello.cow")
+    var source = readCow("hello.cow")
     println(source)
     eval(source)
     println("\nDone")
